@@ -10,8 +10,7 @@ export default function longestCommonSubseq(str1, str2) {
         output.push(str2[j]) 
         break
       }      
-    } 
-    
+    }
   }
   
   return output.reverse().join('')
